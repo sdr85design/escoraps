@@ -1,0 +1,236 @@
+body {
+    font-family: tahoma, helvetica, arial, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    background: url(images/page_bg.jpg);
+    color: #6f6f6f;
+}
+
+html, body, #wrapper, h1, #nav, #nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+th, td {
+    font-size: 10px;
+}
+
+
+
+#wrapper {
+    margin: auto;
+    text-align: left;
+    width: 800px;
+    position: relative;
+}
+
+h1, h2, h3 {
+    font-size: 10px;
+}
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+h3 {
+    margin: 4px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+p {
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.clear {
+    clear: both;
+    height: 1px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1px;
+    line-height: 1px;
+}
+
+* html .clear {
+    margin-top: -5px;
+    margin-bottom: -4px;
+}
+
+
+/* ***** */
+
+body {
+    background: #F8E0E6;
+}
+#wrapper {
+    width: 700px;
+    background: #fff;
+    border-double: 1px solid black;
+}
+
+* html #wrapper {
+    width: 700px;
+    width: 700px;
+}
+
+h1 {
+    padding: 9px 18px
+}
+
+
+/* nav */
+
+* html .clear {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav li {
+    float: right;
+    list-style: none;
+    width: 175px;
+    font-size: 20px;
+    font-weight: bold;
+    border-left: 1px solid white;
+    text-align: center;
+}
+
+#nav li.first {
+    width: 150px;
+    border-left: none;
+}
+
+#nav a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    background: #cb0368;
+    background-color: #cb0368;
+    padding: 2px 0;
+    width: 100%;
+}
+
+.nav nav-tabs{
+    background: #cb0368;
+}
+#nav a:hover {
+    background: #F076AD;
+}
+
+/* highlights */
+
+#highlights {
+    background: url(images) no-repeat;
+    width: 327px;
+    float: left;
+    margin-right: -10px;
+}
+
+#highlights .p {
+    padding: 8px 7px;
+    margin-left: 187px;
+    border-bottom: 1px solid white;
+}
+
+* html #highlights .p {
+    padding-bottom: 6px;
+}
+
+#highlights div.green  { background: #bdcb21; }
+#highlights div.purple { background: #7976d6; }
+#highlights div.orange { background: #f2901c; }
+
+#highlights #topspot {
+    padding: 13px 11px;
+}
+
+#highlights .faceotweek {
+    float: left;
+    width: 97px;
+    font-size: 10px;
+    margin-top: 1em;
+    color: #487388;
+    font-weight: bold;
+}
+
+#highlights .faceotweek p {
+    padding: 0 2px;
+}
+
+/* right */
+
+#right {
+    width: 370px;
+    float: right;
+    border-top: 1px solid #bdbdbd;
+    background: url(images/body_tr_bg.gif);
+}
+
+#right .right {
+    margin-left: 1px;
+}
+
+#right #products {
+    float: left;
+    width: 188px;
+}
+
+#right #products div {
+    border-top: 1px solid #bdbdbd;
+    padding: 10px 10px 0 10px;
+}
+
+#right #products #item-one {
+    border-top: none;
+}
+
+#right #products h2 {
+    clear: both;
+}
+
+#right #news {
+    float: right;
+    width: 165px;
+    margin: 10px 10px 0 0;
+    display: inline;
+}
+
+#right #news h2 {
+    margin-bottom: 0.5em;
+}
+
+#right #news h3 {
+    margin-bottom: -0.4em;
+}
+
+/* beauty */
+
+
+/* footer */
+
+#footer {
+    color: #fff;
+    background: #cb0368;
+    text-align: center;
+    padding: 8px 0;
+}
+
+#footer a {
+    color: #fff;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+#footer a:hover {
+    color: #f8cde3;
+}
